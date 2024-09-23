@@ -1,0 +1,263 @@
+@font-face {
+  font-family: futura;
+  src: url(./futur.ttf);
+}
+html {
+    height: 100vh;
+  }
+#loader{
+   height: 100vh;
+   width: 100vw;
+   position: absolute;
+   overflow: hidden;
+   left: 0;
+   top: 0;
+   z-index: 1200;
+   background-color: #01000C;
+  }
+  #loader video{
+    position: absolute;
+    top: 20vh;
+    left: 23vw;
+    height: 50vh;
+    width: 50vw;
+
+  }
+  #loader h2{
+    font-size: 170px;
+    color: white;
+    z-index: 1100;
+    font-family: 'Kanit';
+    font-weight: 200;
+    color:  rgba(109, 25, 25, 0.749);
+    position: absolute;
+    right: 3vw;
+    top: 39vh;
+  }
+  .body {
+    height: 0vh;
+    width: 98vw;
+    position: relative;
+    overflow: hidden;
+  }
+  .body h1{
+    font-size: 130px;
+    left: 48vw;
+    top: -12vh;
+    position: absolute;
+    z-index: 1000;
+    font-family:'Kanit';
+    font-weight: 1000;
+    letter-spacing: 10px;
+    -webkit-text-stroke: 2px rgba(109, 25, 25, 0.749);
+  }
+  .body p{
+    font-size: 100px;
+    color: gray;
+    left: 25vw;
+    top: 58vh;
+    position: absolute;
+    z-index: 1000;
+    font-family:'Kanit';
+    font-weight: 700;
+    -webkit-text-stroke: 2px rgba(109, 25, 25, 0.749);
+
+    
+  }
+.body button{
+  position: absolute;
+  z-index: 1200;
+  bottom: 5vw;
+  left: 30vw;
+  height: 50px;
+  font-size: 18px;
+  border-style:none ;
+  border-radius: 1vw;
+  background-color: black;
+  color: gray  ;
+  width: 500px;
+  cursor: pointer;
+  letter-spacing: 100px;
+  transition: all ease 1s;
+}
+.body button span{
+  margin-left: 5vw;
+}
+.body button:hover{
+  scale: 1.1;
+}
+  .body h5{
+      font-size: 30px;
+      
+      left: 81vw;
+      top: 14.5vh;
+      position: absolute;
+      z-index: 1000;
+      font-family:'Kanit';
+      font-weight: 200;
+      letter-spacing: -2px;
+      -webkit-text-stroke: 1px rgba(109, 25, 25, 0.749);
+      
+    }
+  .png{
+    height: 18vh;
+    width: 25vw;
+    position: fixed;
+    z-index: 1100;
+    background: none;
+    top: 6vh;
+    background-image: url("/PngItem_1721977.png");
+    background-position: center;
+    background-size: cover;
+  }
+  canvas {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 104vw;
+    max-height: 125vh;
+
+  }
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media  (max-width:600px) {
+    html{
+      height: fit-content;
+    }
+    
+#loader{
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1200;
+  background-color: #01000C;
+ }
+ #loader video{
+   position: absolute;
+   top: -10vh;
+   left: 3vw;
+   height: 100vh;
+   width: 93vw;
+
+ }
+ #loader h2{
+   font-size: 170px;
+   color: white;
+   z-index: 1100;
+   font-family: 'Kanit';
+   font-weight: 200;
+   color:  rgba(109, 25, 25, 0.749);
+   position: absolute;
+   right: 3vw;
+   top: 40vh;
+ }
+ .body {
+  height: 0vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+  background-color: #01000C;
+}
+canvas {
+  position: fixed;
+  max-width: 410vw;
+
+}
+.body h1{
+  font-size: 65px;
+  letter-spacing: 10px;
+  left: 1vw;
+  top: 17vh;
+  position: absolute;
+  z-index: 1000;
+  font-family:'Kanit';
+  font-weight: 1000;
+  letter-spacing: 10px;
+  -webkit-text-stroke: 2px rgba(109, 25, 25, 0.749);
+}
+.body p{
+  font-size: 100px;
+  color: gray;
+  left: 1vw;
+  top: 54vh;
+  line-height: 80px;
+  position: absolute;
+  z-index: 1000;
+  font-family:'Kanit';
+  font-weight: 700;
+  -webkit-text-stroke: 2px rgba(109, 25, 25, 0.749);
+
+  
+}
+.body button{
+position: absolute;
+z-index: 1200;
+bottom: 12vw;
+left: 5vw;
+height: 50px;
+font-size: 15px;
+letter-spacing: 50px;
+display: flex;
+text-align: center;
+justify-content: center;
+align-items: center;
+border-style:none ;
+border-radius: 5vw;
+background-color: white;
+color: black;
+width: 300px;
+cursor: pointer;
+transition: all ease 1s;
+}
+.body button:hover{
+scale: 1.1;
+}
+.body h5{
+    font-size: 30px; 
+    left:25vw;
+    top: 25.5vh;
+    position: absolute;
+    z-index: 1000;
+    font-family:'Kanit';
+    font-weight: 200;
+    letter-spacing: -2px;
+    -webkit-text-stroke: 1px rgba(109, 25, 25, 0.749);
+    
+  }
+.png{
+  height: 11vh;
+  width: 60vw;
+  position: fixed;
+  z-index: 1100;
+  background: none;
+  top: 9vh;
+  left: 19vw;
+  background-image: url("/PngItem_1721977.png");
+  background-position: center;
+  background-size: cover;
+}
+
+  }
